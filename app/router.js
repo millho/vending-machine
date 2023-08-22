@@ -1,13 +1,14 @@
 import { AboutController } from "./controllers/AboutController.js";
 import { HomeController } from "./controllers/HomeController.js";
 import { ValuesController } from "./controllers/ValuesController.js";
+import { ItemsController } from "./controllers/itemsController.js";
 import { AboutView } from "./views/AboutView.js";
 
 
 export const router = [
   {
     path: '',
-    controller: HomeController,
+    controller: ItemsController,
     view: /*html*/`
     <div class="card">
       <div class="card-body">

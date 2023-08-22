@@ -9,7 +9,7 @@ class ObservableAppState extends EventEmitter {
 
   money = 0
 
-  item = [
+  items = [
     new Item({ name: 'potato', price: '$1', picture: 'https://images.unsplash.com/photo-1617130094141-532436117aa1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG90YXRvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60' }),
 
     new Item({ name: 'onion', price: '$1', picture: 'https://images.unsplash.com/photo-1587735243474-5426387356db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG9uaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60' }),
