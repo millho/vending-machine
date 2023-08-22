@@ -8,7 +8,7 @@ export class Item {
 
     get ItemTemplate() {
         return `
-        <div class="col-4 text-center">
+        <div class="col-3 text-center">
         <h4>${this.name}</h4>
         <img src="${this.picture}">
         <h4>${this.price}</h4>

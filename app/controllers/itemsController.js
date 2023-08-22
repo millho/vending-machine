@@ -1,9 +1,10 @@
 import { AppState } from "../AppState.js";
 import { setHTML } from "../utils/Writer.js";
+import { ItemsService } from "../services/itemServices.js";
 
 export class ItemsController {
     constructor() {
-        this.drawItems
+        this.drawItems()
     }
 
     drawItems() {
@@ -13,4 +14,8 @@ export class ItemsController {
         setHTML('items', content)
     }
 
+    addMoney() {
+        let money = AppState.money
+        money += 0.25
+    }
 }

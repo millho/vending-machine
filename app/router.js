@@ -10,12 +10,13 @@ export const router = [
     path: '',
     controller: ItemsController,
     view: /*html*/`
-    <div class="card">
-      <div class="card-body">
-        <p>Home Page</p>
-        <button class="btn btn-dark" onclick="app.HomeController.testButton()">😎</button>
-      </div>
-    </div>
+    <section id="items" class="row justify-content-around">
+    
+    </section>
+
+    <section id="" class="row justify-content-around">
+
+    </section>
     `
   },
   {

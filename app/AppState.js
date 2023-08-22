@@ -12,9 +12,11 @@ class ObservableAppState extends EventEmitter {
   items = [
     new Item({ name: 'potato', price: '$1', picture: 'https://images.unsplash.com/photo-1617130094141-532436117aa1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG90YXRvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60' }),
 
-    new Item({ name: 'onion', price: '$1', picture: 'https://images.unsplash.com/photo-1587735243474-5426387356db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG9uaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60' }),
+    new Item({ name: 'onion', price: '$2.25', picture: 'https://images.unsplash.com/photo-1587735243474-5426387356db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG9uaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60' }),
 
-    new Item({ name: 'garlic', price: '$1', picture: 'https://images.unsplash.com/photo-1587049693270-c7560da11218?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdhcmxpY3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60' })
+    new Item({ name: 'garlic', price: '$1.50', picture: 'https://images.unsplash.com/photo-1587049693270-c7560da11218?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdhcmxpY3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60' }),
+
+    new Item({ name: 'brocoli', price: '$3', picture: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60' })
   ]
 
   page = ''
