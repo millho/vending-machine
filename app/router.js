@@ -1,3 +1,4 @@
+import { AppState } from "./AppState.js";
 import { AboutController } from "./controllers/AboutController.js";
 import { HomeController } from "./controllers/HomeController.js";
 import { ValuesController } from "./controllers/ValuesController.js";
@@ -14,8 +15,8 @@ export const router = [
     
     </section>
 
-    <section id="" class="row justify-content-around">
-
+    <section id="money" class="row bank justify-content-around">
+    
     </section>
     `
   },

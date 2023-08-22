@@ -1,1 +1,5 @@
 /* BASIC STYLES HERE */
+.bank {
+    min-height: 25vh;
+    padding: 2em;
+}
