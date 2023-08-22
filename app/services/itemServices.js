@@ -8,6 +8,12 @@ class ItemsService {
         AppState.money += 0.25
     }
 
+    buyItem(itemName) {
+        // console.log('buying item..');
+        const purchasedItem = AppState.items.find(item => item.name == itemName)
+        AppState.money -= purchasedItem.price
+    }
+
 }
 
 export const itemsService = new ItemsService()
